@@ -57,6 +57,9 @@ Twitter Bootstrap customize ID : http://getbootstrap.com/customize/?id=f67b42378
 
 == CHANGE LOG ==
 
+= 3.1.0 - 2025-08-TBD =
+* XSS vulnerability fix - SECURITY
+
 = Version 1.0 =
 - Initial Release
 
