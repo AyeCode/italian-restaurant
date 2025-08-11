@@ -3,6 +3,7 @@
 
 /***
 * Add Submenu Page
+* @todo
 **/
 function italian_restaurant_add_more_themes_page() {
     $page = add_theme_page(
@@ -13,8 +14,7 @@ function italian_restaurant_add_more_themes_page() {
         'italian_restaurant_display_more_themes'
     );
 }
-
-add_action( 'admin_menu', 'italian_restaurant_add_more_themes_page' );
+//add_action( 'admin_menu', 'italian_restaurant_add_more_themes_page' );
 
 /** Add CSS Styles **/
 function italian_restaurant_more_themes_styles($hook) {
@@ -47,7 +47,7 @@ function italian_restaurant_display_more_themes(){
             <div class="row">
                 <div class="col-md-12">
                 
-                    <a href="<?php echo esc_url('http://ketchupthemes.com/'); ?>" target="_blank">
+                    <a href="<?php echo esc_url('https://wpgeodirectory.com/'); ?>" target="_blank">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/banner.jpg" class="img-responsive" id="more-themes-banner"/>
                     </a>
                 
