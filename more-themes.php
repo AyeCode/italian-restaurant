@@ -48,7 +48,7 @@ function italian_restaurant_display_more_themes(){
                 <div class="col-md-12">
                 
                     <a href="<?php echo esc_url('https://wpgeodirectory.com/'); ?>" target="_blank">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/banner.jpg" class="img-responsive" id="more-themes-banner"/>
+                    <img src="<?php echo esc_url( get_template_directory_uri() . '/img/banner.jpg' ); ?>" class="img-responsive" id="more-themes-banner"/>
                     </a>
                 
                 </div>

@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Italian Restaurant Theme 3.1.0\n"
+"Project-Id-Version: Italian Restaurant Theme 3.1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-11 17:17+0530\n"
-"PO-Revision-Date: 2025-08-11 17:17+0530\n"
+"POT-Creation-Date: 2025-08-11 21:05+0530\n"
+"PO-Revision-Date: 2025-08-11 21:05+0530\n"
 "Last-Translator: \n"
 "Language-Team: AyeCode Ltd <contact@ayecode.io>\n"
 "Language: en_US\n"
@@ -20,27 +20,27 @@ msgstr ""
 "X-Generator: Poedit 3.5\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: 404.php:38
+#: 404.php:37
 msgid "Well, this page does not exist. Maybe search something else?"
 msgstr ""
 
-#: archive.php:37
+#: archive.php:36
 msgid "Archive for: "
 msgstr ""
 
-#: archive.php:39 archive.php:41
+#: archive.php:38 archive.php:40
 msgid "Archive for "
 msgstr ""
 
-#: archive.php:47 search.php:38 tag.php:38
+#: archive.php:46 search.php:37 tag.php:36
 msgid "   Page: "
 msgstr ""
 
-#: category.php:34
+#: category.php:33
 msgid "You are viewing posts in: "
 msgstr ""
 
-#: category.php:37
+#: category.php:36
 msgid "   Page:"
 msgstr ""
 
@@ -67,15 +67,15 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#: footer.php:48
+#: footer.php:47
 msgid "https://wpgeodirectory.com/"
 msgstr ""
 
-#: footer.php:49
+#: footer.php:48
 msgid "Italian Restaurant Theme"
 msgstr ""
 
-#: footer.php:51
+#: footer.php:50
 msgid "&copy;"
 msgstr ""
 
@@ -1286,7 +1286,7 @@ msgstr ""
 msgid "Live Preview"
 msgstr ""
 
-#: search.php:35
+#: search.php:34
 #, php-format
 msgid "Search results for the term: %s"
 msgstr ""
@@ -1305,6 +1305,6 @@ msgid ""
 "            some widgets via the WP Admin"
 msgstr ""
 
-#: tag.php:35
+#: tag.php:33
 msgid "You are viewing posts tagged with: "
 msgstr ""
