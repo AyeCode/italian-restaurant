@@ -1,9 +1,8 @@
 <?php
-/**==================== =
- * Main Functions file.
- * Please be careful when
- * editing.
- *===================== */
+/**
+ * The theme version.
+ */
+define( 'ITALIAN_RESTAURANT_THEME_VERSION', wp_get_theme()->get( 'Version' ) );
 
 /**=== Setup Theme == **/
 
@@ -354,12 +353,12 @@ function italian_restaurant_upsell_notice(){
         'prefix-customizer-upsell',
         'prefixL10n',
         array(
-            'prefixURL' => esc_url('http://ketchupthemes.com/italian-restaurant-theme'),
+            'prefixURL' => esc_url('https://ayecode.io'),
             'prefixLabel' => __('Upgrade To Premium', 'italian-restaurant') ,
             'paragraphText'=>__('Features Marked As Pro, Are Available In The Premium Version Only!!!','italian-restaurant'),
             'premiumSpanTxt'=>__('- OR CHECK -','italian-restaurant'),
             'premiumDemoTxt'=>__('Premium Demo','italian-restaurant'),
-            'premiumDemoUrl'=>esc_url('http://ketchupthemes.com/themes-demo/?theme=ItalianRestaurant')
+            'premiumDemoUrl'=>esc_url('https://ayecode.io')
             )
     );
 
@@ -367,7 +366,7 @@ function italian_restaurant_upsell_notice(){
         'prefix-customizer-pro',
         'prefixL11n',
         array(
-            'prefixURL' => esc_url('http://ketchupthemes.com/italian-restaurant-theme'),
+            'prefixURL' => esc_url('https://ayecode.io'),
             'prefixLabel' => __('PRO', 'italian-restaurant')
         )
     );
@@ -377,11 +376,12 @@ add_action('customize_controls_enqueue_scripts', 'italian_restaurant_upsell_noti
 
 /*****
 * Add new menu items under appearance
+* @todo
 */
-add_action('admin_menu', 'italian_documentation_item');
+//add_action('admin_menu', 'italian_documentation_item');
 function italian_documentation_item() {
     global $submenu;
-    $url = esc_url('http://www.ketchupthemes.com/italian-restaurant-theme');
+    $url = esc_url('https://wpgeodirectory.com/');
     $submenu['themes.php'][] = array(__('Documentation','italian-restaurant'), 'manage_options', $url);
 }
 /**=====================

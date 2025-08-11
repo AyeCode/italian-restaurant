@@ -1,21 +1,20 @@
 /*
 Theme Name: Italian Restaurant
-Theme URI: http://ketchupthemes.com/italian-restaurant-theme/
-Author: Alexandros Itsios
-Author URI: http://ketchupthemes/alex-itsios
+Theme URI: https://wpgeodirectory.com/
+Author: AyeCode Ltd
+Author URI: https://ayecode.io/
 Description: Italian Restaurant, is a modern, stylish, responsive, multipurpose restaurant WordPress theme based on the infamous Twitter Bootstrap boilerplate. The theme also comes bundled with a powerful restaurant reservation system, shortcodes and various layouts. Some of it's features include custom menus, header, customizer panel and full width pages.
-Version: 3.0.2
+Tags: one-column, two-columns, three-columns, four-columns, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, full-width-template, italian, italian restaurant, restaurant, sticky-post, theme-options, threaded-comments, translation-ready
+Version: 3.1.0
+Requires at least: 5.0
+Tested up to: 6.8
+Requires PHP: 7.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: one-column, two-columns, three-columns, four-columns, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
 Text Domain: italian-restaurant
 */
 
-/**
-*
-* WORDPRESS RELATED CLASSES
-*
-**/
+/**== WordPress Core Classes ==**/
 .alignleft {
     float: left;
     margin:0 15px 30px 0;

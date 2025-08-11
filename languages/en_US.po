@@ -1,10 +1,9 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Italian Restaurant Theme 3.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-11 17:17+0530\n"
-"PO-Revision-Date: 2025-08-08 10:57+0000\n"
+"PO-Revision-Date: 2025-08-11 17:17+0530\n"
 "Last-Translator: \n"
 "Language-Team: AyeCode Ltd <contact@ayecode.io>\n"
 "Language: en_US\n"
@@ -1085,8 +1084,8 @@ msgstr ""
 
 #: framework/libs/class-tgm-plugin-activation.php:3600
 msgid ""
-"The installation and activation process is starting. This process may take "
-"a while on some hosts, so please be patient."
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
 msgstr ""
 
 #: framework/libs/class-tgm-plugin-activation.php:3602

@@ -45,11 +45,8 @@
                 <div class="col-md-12 text-center">
 
                     <p>
-                        <a rel="nofollow" href="<?php echo esc_url(__(
-                            'http://ketchupthemes.com/italian-restaurant-theme/',
-                            'italian-restaurant')); ?>">
-                            <small><?php printf(__('Ketchupthemes.com', 'italian-restaurant'));
-                                ?></small>
+                        <a rel="nofollow" href="<?php echo esc_url(__( 'https://wpgeodirectory.com/', 'italian-restaurant')); ?>">
+                            <small><?php printf(__('Italian Restaurant Theme', 'italian-restaurant')); ?></small>
                         </a>,
                         <small><?php echo __('&copy;', 'italian-restaurant') . date('Y'); ?></small>
                         <small><?php bloginfo('name'); ?></small>
