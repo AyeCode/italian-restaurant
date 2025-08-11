@@ -3,7 +3,7 @@ Contributors: ayecode, stiofansisland
 Requires at least: 5.0
 Tested up to: 6.8
 Requires PHP: 7.2
-Stable tag: 3.1.0
+Stable tag: 3.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,9 +30,6 @@ Resources packed within the theme.
 
 About Images in demo -- 
 All images are under CC0 License
-https://pixabay.com/en/pasta-spaghetti-italian-food-329522/
-https://pixabay.com/en/pasta-cheese-egg-food-italian-794464/
-https://pixabay.com/en/pasta-noodles-cook-tomato-eat-666420/
 http://www.pexels.com/photo/vegetables-italian-pizza-restaurant-2232/
 
 All other resources and theme elements are licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
@@ -55,6 +52,9 @@ the PoEdit software to translate the theme.
 Twitter Bootstrap customize ID : http://getbootstrap.com/customize/?id=f67b423786534a5c0843
 
 == Changelog ==
+
+= 3.1.1 - 2025-08-11 =
+* Theme Check compatibility - CHANGED
 
 = 3.1.0 - 2025-08-11 =
 * XSS vulnerability fix - SECURITY
